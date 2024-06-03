@@ -1,7 +1,7 @@
 import React from "react";
 import "./AdvantagesSection.css";
 import bell from "../../../assets/bell-02.png";
-import iphone1 from "../../../assets/iphone1.png";
+import iphone1 from "../../../assets/CombinedImage.png";
 
 const AdvantagesSection = () => {
   return (
@@ -27,7 +27,6 @@ const AdvantagesSection = () => {
       </div>
       <div className="advantages-image">
         <img src={iphone1} alt="iPhone" />
-        <div className="background-spiral"></div>
       </div>
     </div>
   );

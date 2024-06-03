@@ -62,16 +62,6 @@
   width: 100%;
 }
 
-.background-spiral {
-  position: absolute;
-  top: -50px;
-  right: -50px;
-  width: 500px;
-  height: 500px;
-  background: url("../../../assets/Spiral.png") no-repeat;
-  background-size: contain;
-}
-
 /* Responsive Styles */
 @media (max-width: 768px) {
   .advantages-container {

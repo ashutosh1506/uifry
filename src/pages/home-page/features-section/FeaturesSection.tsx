@@ -1,7 +1,6 @@
 import React from "react";
 import "./FeaturesSection.css";
-import IphoneImage from "../../../assets/iphone1.png"; // Update this path to where your iPhone image is located
-import SpiralImage from "../../../assets/Spiral.png"; // Update this path to where your spiral image is located
+import CombinedImage from "../../../assets/FeaturesImage.png"; // Update this path to where your combined image (iPhone + spiral) is located
 import star1 from "../../../assets/star-05.png";
 import cube1 from "../../../assets/cube-02.png";
 import cube2 from "../../../assets/cube-04.png";
@@ -10,9 +9,11 @@ const FeaturesSection: React.FC = () => {
   return (
     <div className="container">
       <div className="image-container">
-        <img src={SpiralImage} alt="Spiral" className="spiral" />
-        <img src={IphoneImage} alt="iPhone" className="iphone iphone1" />
-        {/* <img src={IphoneImage} alt="iPhone" className="iphone iphone2" /> */}
+        <img
+          src={CombinedImage}
+          alt="Combined iPhone and Spiral"
+          className="combined-image"
+        />
       </div>
       <div className="text-container">
         <h2 className="title">Features</h2>

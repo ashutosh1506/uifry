@@ -1,13 +1,11 @@
 import React from "react";
 import "./CustomizableSection.css";
-import iphoneImage from "../../../assets/iphone1.png"; // Update this path
-import spiralImage from "../../../assets/Spiral.png"; // Update this path
+import iphoneImage from "../../../assets/FeaturesImage.png";
 import star1 from "../../../assets/star2.png";
 const Customizable: React.FC = () => {
   return (
     <div className="customizable-container">
       <div className="image-container">
-        <img src={spiralImage} alt="Spiral" className="spiral-image" />
         <img
           src={iphoneImage}
           alt="iPhone"

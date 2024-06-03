@@ -1,20 +1,30 @@
-/* HeroStats.css */
+/* HeroStatsSection.css */
 
 /* General styles for desktop and larger screens */
 .container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   padding: 20px;
   position: relative;
 }
 
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
 .text-section {
   max-width: 50%;
+  text-align: left;
+  margin-right: 20px;
+  margin-bottom: 200px;
 }
 
 .text-section h1 {
-  font-size: 2em;
+  font-size: 2.5em;
   color: black;
 }
 
@@ -26,6 +36,7 @@
 .buttons {
   display: flex;
   gap: 10px;
+  justify-content: flex-start;
 }
 
 .get-started,
@@ -60,33 +71,26 @@
   width: 150%;
 }
 
-.phones {
-  display: flex;
-  gap: -30px;
-  position: relative;
-  z-index: 1;
-}
-
-.phone {
-  width: 200px;
+.phones-image {
+  width: 500px;
+  padding-right: 100px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-.phone:nth-child(1) {
-  transform: rotate(-10deg) translateX(-10px);
+.achievement-section {
+  display: flex;
+  /* justify-content: center; */
+  width: 100%;
+  margin-top: 20px;
 }
 
-.phone:nth-child(2) {
-  transform: rotate(10deg) translateX(-20px);
-}
-
-.phone:nth-child(3) {
-  transform: rotate(-5deg) translateX(-30px);
+.achievement-image {
+  width: 40%;
 }
 
 /* Responsive styles for tablets and mobile devices */
 @media (max-width: 768px) {
-  .container {
+  .content-wrapper {
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -94,11 +98,15 @@
 
   .text-section {
     max-width: 100%;
+    margin-right: 0;
     margin-bottom: 20px;
   }
 
+  .buttons {
+    justify-content: center;
+  }
+
   .image-section {
-    position: relative;
     width: 100%;
   }
 
@@ -109,19 +117,18 @@
     width: 150%;
   }
 
-  .phones {
-    justify-content: center;
-    gap: -20px;
+  .phones-image {
+    width: 300px;
   }
 
-  .phone {
-    width: 150px;
+  .achievement-image {
+    width: 90%;
   }
 }
 
 @media (max-width: 480px) {
   .text-section h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   .get-started,
@@ -129,7 +136,11 @@
     padding: 8px 16px;
   }
 
-  .phone {
-    width: 120px;
+  .phones-image {
+    width: 250px;
+  }
+
+  .achievement-image {
+    width: 100%;
   }
 }
