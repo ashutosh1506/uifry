@@ -20,7 +20,7 @@
   max-width: 50%;
   text-align: left;
   margin-right: 20px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
 
 .text-section h1 {
@@ -61,6 +61,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  margin-bottom: 210px;
 }
 
 .spiral-image {
@@ -72,9 +73,9 @@
 }
 
 .phones-image {
-  width: 500px;
+  width: 450px;
   padding-right: 100px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); */
 }
 
 .achievement-section {
@@ -85,7 +86,7 @@
 }
 
 .achievement-image {
-  width: 40%;
+  width: 70%;
 }
 
 /* Responsive styles for tablets and mobile devices */

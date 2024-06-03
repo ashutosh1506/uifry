@@ -7,7 +7,7 @@ import cube2 from "../../../assets/cube-04.png";
 
 const FeaturesSection: React.FC = () => {
   return (
-    <div className="container">
+    <div className="features-container">
       <div className="image-container">
         <img
           src={CombinedImage}
