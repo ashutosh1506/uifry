@@ -18,11 +18,11 @@ const FeaturesSection: React.FC = () => {
         <h2 className="title">Features</h2>
         <h3 className="subtitle">Uifry Premium</h3>
         <div className="feature-item">
-          <div className="icon">
+          <div className="feature-icon">
             <img src={star1} alt="star" />
           </div>
           <div className="text">
-            <h4 className="feature-title">Budgeting Intervals</h4>
+            <h3 className="feature-title">Budgeting Intervals</h3>
             <p className="feature-description">
               Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
               Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
@@ -30,11 +30,11 @@ const FeaturesSection: React.FC = () => {
           </div>
         </div>
         <div className="feature-item">
-          <div className="icon">
+          <div className="feature-icon">
             <img src={cube1} alt="cube" />
           </div>
           <div className="text">
-            <h4 className="feature-title">Budgeting Intervals</h4>
+            <h3 className="feature-title">Budgeting Intervals</h3>
             <p className="feature-description">
               Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
               Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
@@ -42,11 +42,11 @@ const FeaturesSection: React.FC = () => {
           </div>
         </div>
         <div className="feature-item">
-          <div className="icon">
+          <div className="feature-icon">
             <img src={cube2} alt="cube" />
           </div>
           <div className="text">
-            <h4 className="feature-title">Budgeting Intervals</h4>
+            <h3 className="feature-title">Budgeting Intervals</h3>
             <p className="feature-description">
               Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
               Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
