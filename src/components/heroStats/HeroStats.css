@@ -1,0 +1,135 @@
+/* HeroStats.css */
+
+/* General styles for desktop and larger screens */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.text-section h1 {
+  font-size: 2em;
+  color: black;
+}
+
+.text-section p {
+  margin: 20px 0;
+  color: gray;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.get-started,
+.watch-video {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.get-started {
+  background-color: black;
+  color: white;
+}
+
+.watch-video {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.image-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.spiral-image {
+  position: absolute;
+  top: -20px;
+  right: -60px;
+  z-index: -1;
+  width: 150%;
+}
+
+.phones {
+  display: flex;
+  gap: -30px;
+  position: relative;
+  z-index: 1;
+}
+
+.phone {
+  width: 200px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.phone:nth-child(1) {
+  transform: rotate(-10deg) translateX(-10px);
+}
+
+.phone:nth-child(2) {
+  transform: rotate(10deg) translateX(-20px);
+}
+
+.phone:nth-child(3) {
+  transform: rotate(-5deg) translateX(-30px);
+}
+
+/* Responsive styles for tablets and mobile devices */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-section {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .image-section {
+    position: relative;
+    width: 100%;
+  }
+
+  .spiral-image {
+    position: absolute;
+    top: -20px;
+    right: -60px;
+    width: 150%;
+  }
+
+  .phones {
+    justify-content: center;
+    gap: -20px;
+  }
+
+  .phone {
+    width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-section h1 {
+    font-size: 1.5em;
+  }
+
+  .get-started,
+  .watch-video {
+    padding: 8px 16px;
+  }
+
+  .phone {
+    width: 120px;
+  }
+}
