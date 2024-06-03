@@ -1,8 +1,8 @@
 import React from "react";
-import "./Customizable.css";
-import iphoneImage from "../../assets/iphone1.png"; // Update this path
-import spiralImage from "../../assets/Spiral.png"; // Update this path
-import star1 from "../../assets/star2.png";
+import "./CustomizableSection.css";
+import iphoneImage from "../../../assets/iphone1.png"; // Update this path
+import spiralImage from "../../../assets/Spiral.png"; // Update this path
+import star1 from "../../../assets/star2.png";
 const Customizable: React.FC = () => {
   return (
     <div className="customizable-container">

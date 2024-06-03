@@ -1,9 +1,9 @@
 import React from "react";
-import "./Advantages.css";
-import bell from "../../assets/bell-02.png";
-import iphone1 from "../../assets/iphone1.png";
+import "./AdvantagesSection.css";
+import bell from "../../../assets/bell-02.png";
+import iphone1 from "../../../assets/iphone1.png";
 
-const Advantages = () => {
+const AdvantagesSection = () => {
   return (
     <div className="advantages-container">
       <div className="advantages-text">
@@ -33,4 +33,4 @@ const Advantages = () => {
   );
 };
 
-export default Advantages;
+export default AdvantagesSection;

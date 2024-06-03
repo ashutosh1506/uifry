@@ -1,12 +1,12 @@
 import React from "react";
-import "./Features.css";
-import IphoneImage from "../../assets/iphone1.png"; // Update this path to where your iPhone image is located
-import SpiralImage from "../../assets/Spiral.png"; // Update this path to where your spiral image is located
-import star1 from "../../assets/star-05.png";
-import cube1 from "../../assets/cube-02.png";
-import cube2 from "../../assets/cube-04.png";
+import "./FeaturesSection.css";
+import IphoneImage from "../../../assets/iphone1.png"; // Update this path to where your iPhone image is located
+import SpiralImage from "../../../assets/Spiral.png"; // Update this path to where your spiral image is located
+import star1 from "../../../assets/star-05.png";
+import cube1 from "../../../assets/cube-02.png";
+import cube2 from "../../../assets/cube-04.png";
 
-const Features: React.FC = () => {
+const FeaturesSection: React.FC = () => {
   return (
     <div className="container">
       <div className="image-container">
@@ -58,4 +58,4 @@ const Features: React.FC = () => {
   );
 };
 
-export default Features;
+export default FeaturesSection;
