@@ -30,20 +30,19 @@
 
 .title-container {
   display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-.icon {
+.icon-Customizable {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 35px;
-  height: 35px;
-  background-color: red;
+  height: 33px;
+  background: url("../../../assets/elipse.png") no-repeat center center;
+  background-size: contain;
   border-radius: 50%;
   margin-right: 10px;
-  margin-bottom: 20px;
 }
 
 .icon-circle {

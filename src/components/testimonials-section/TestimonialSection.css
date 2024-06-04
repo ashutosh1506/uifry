@@ -75,7 +75,21 @@
 .user-images {
   display: flex;
 }
-
+.person-img1 {
+  background: url("../../assets/Ellipse15.png");
+}
+.person-img2 {
+  background: url("../../assets/Ellipse15.png");
+}
+.person-img3 {
+  background: url("../../assets/Ellipse15.png");
+}
+.person-img4 {
+  background: url("../../assets/Ellipse15.png");
+}
+.person-img5 {
+  background: url("../../assets/Ellipse15.png");
+}
 .user-images img {
   border-radius: 50%;
   width: 40px;

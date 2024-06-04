@@ -17,7 +17,7 @@ h4 {
   flex: 1;
   min-width: 200px;
   margin: 10px;
-  margin-top: 50px;
+  margin-top: 42px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -35,12 +35,19 @@ h4 {
   height: 24px;
   margin-right: 10px;
 }
-
+.contact-logo {
+  width: 34px;
+  height: 34px;
+  margin-right: 10px;
+}
 .contact-text {
   font-size: 16px;
   font-weight: bold;
 }
-
+.contact-text-icon {
+  font-size: 23px;
+  font-weight: 750;
+}
 .footer-section {
   flex: 1;
   min-width: 200px;
@@ -61,25 +68,37 @@ h4 {
 }
 
 .newsletter {
-  display: flex;
-  flex-direction: row;
-  align-items: start;
+  width: 340px;
+  height: 81px;
+  top: 5539.71px;
+  left: 926px;
+  gap: 0px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #ffffff;
+  box-shadow: -13.01px 13.01px 104.09px 0px #a1a1a11a;
   padding: 10px;
-  padding-left: 0 !important;
 }
 
 .newsletter input {
-  flex: 1;
-  padding: 5px;
-  margin-right: 5px;
+  width: 83px;
+  height: 26px;
+
+  padding-left: 10px;
+  border-style: none;
+  font-size: 16px;
 }
 
 .newsletter button {
-  padding: 5px 10px;
-  background-color: black;
+  margin-top: 10px;
+  font-size: 16px;
   color: white;
-  border: none;
-  cursor: pointer;
+  width: 120px;
+  height: 61px;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #000000;
+  border-style: none;
+  margin-left: 20px;
 }
 
 .footer-bottom {

@@ -14,7 +14,7 @@ const Customizable: React.FC = () => {
       </div>
       <div className="text-container">
         <div className="title-container">
-          <div className="icon">
+          <div className="icon-Customizable">
             <span className="icon-circle">
               <img src={star1} alt="star" />
             </span>

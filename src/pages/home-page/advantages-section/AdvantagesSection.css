@@ -26,11 +26,11 @@
   align-items: flex-start;
 }
 
-.icon {
+.icon-Advantages {
   margin-right: 20px;
   margin-top: 20px;
-  width: 50px;
-  height: 50px;
+  width: 109px;
+  height: 47px;
   background: url("../../../assets/elipse.png") no-repeat center center;
   background-size: contain;
   display: flex;

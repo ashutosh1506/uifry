@@ -10,7 +10,7 @@ const AdvantagesSection = () => {
         <h2>ADVANTAGES</h2>
         <h1>Why Choose Uifry?</h1>
         <div className="advantages-item">
-          <div className="icon">
+          <div className="icon-Advantages">
             <img src={bell} alt="Notification Icon" />
           </div>
           <div className="text">

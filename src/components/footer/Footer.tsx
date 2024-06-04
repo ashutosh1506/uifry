@@ -10,8 +10,8 @@ const Footer: React.FC = () => {
       <div className="footer-container">
         <div className="contact-info">
           <div className="contact-item">
-            <img src={Frame} alt="logo" className="contact-icon" />
-            <p className="contact-text">uifry</p>
+            <img src={Frame} alt="logo" className="contact-logo" />
+            <p className="contact-text-icon">uifry</p>
           </div>
           <div className="contact-item">
             <img src={mssg} alt="email" className="contact-icon" />
