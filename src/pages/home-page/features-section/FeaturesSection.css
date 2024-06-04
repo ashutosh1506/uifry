@@ -46,13 +46,15 @@
 
 .title {
   color: #ff5a5f;
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .subtitle {
   color: #000;
-  font-size: 32px;
+  font-size: 2.5rem;
   font-weight: bold;
+  margin-top: 0px;
 }
 
 .feature-item {

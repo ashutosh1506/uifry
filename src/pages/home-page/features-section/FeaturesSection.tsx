@@ -17,7 +17,7 @@ const FeaturesSection: React.FC = () => {
         />
       </div>
       <div className="text-container">
-        <h2 className="title">Features</h2>
+        <h2 className="title">FEATURES</h2>
         <h3 className="subtitle">Uifry Premium</h3>
         <div className="feature-item">
           <div className="feature-icon">

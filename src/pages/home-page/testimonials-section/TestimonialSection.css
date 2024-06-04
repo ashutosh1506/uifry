@@ -11,23 +11,30 @@
 .testimonial-header {
   text-align: center;
   margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header-subtitle {
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 700;
   color: #333;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
 
-.header-title {
-  font-size: 32px;
-  font-weight: bold;
-  margin-top: 10px;
+.header-title1 {
+  font-size: 40px;
+  font-weight: 800;
   margin-bottom: 0;
   color: #000;
 }
-
+.header-title2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 0;
+  color: #000;
+}
 .testimonial-content {
   display: flex;
   width: 100%;
@@ -76,19 +83,19 @@
   display: flex;
 }
 .person-img1 {
-  background: url("../../assets/Ellipse15.png");
+  background: url("../../../assets/Ellipse15.png");
 }
 .person-img2 {
-  background: url("../../assets/Ellipse15.png");
+  background: url("../../../assets/Ellipse15.png");
 }
 .person-img3 {
-  background: url("../../assets/Ellipse15.png");
+  background: url("../../../assets/Ellipse15.png");
 }
 .person-img4 {
-  background: url("../../assets/Ellipse15.png");
+  background: url("../../../assets/Ellipse15.png");
 }
 .person-img5 {
-  background: url("../../assets/Ellipse15.png");
+  background: url("../../../assets/Ellipse15.png");
 }
 .user-images img {
   border-radius: 50%;

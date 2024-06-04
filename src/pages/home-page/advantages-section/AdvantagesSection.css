@@ -12,13 +12,14 @@
 
 .advantages-text h2 {
   color: red;
-  font-size: 1.2em;
-  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .advantages-text h1 {
   font-size: 2.5em;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .advantages-item {

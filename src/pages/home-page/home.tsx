@@ -6,7 +6,7 @@ import CustomizableSection from "./customizable-section/CustomizableSection";
 import FaqSection from "./faq-section/FaqSection";
 import Footer from "../../components/footer/Footer";
 import HeroStatsSection from "./heroStats-section/HeroStatsSection";
-import TestimonialSection from "../../components/testimonials-section/TestimonialSection";
+import TestimonialSection from "./testimonials-section/TestimonialSection";
 import FrameImage from "../../assets/BigFrame.png";
 const Home = () => {
   return (
