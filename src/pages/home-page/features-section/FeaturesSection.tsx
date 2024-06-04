@@ -4,6 +4,7 @@ import CombinedImage from "../../../assets/FeaturesImage.png"; // Update this pa
 import star1 from "../../../assets/star-05.png";
 import cube1 from "../../../assets/cube-02.png";
 import cube2 from "../../../assets/cube-04.png";
+import { featuresSectionLabels } from "../../../utils/constant";
 
 const FeaturesSection: React.FC = () => {
   return (
@@ -25,8 +26,7 @@ const FeaturesSection: React.FC = () => {
           <div className="text">
             <h3 className="feature-title">Budgeting Intervals</h3>
             <p className="feature-description">
-              Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
-              Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
+              {featuresSectionLabels.description}
             </p>
           </div>
         </div>
@@ -37,8 +37,7 @@ const FeaturesSection: React.FC = () => {
           <div className="text">
             <h3 className="feature-title">Budgeting Intervals</h3>
             <p className="feature-description">
-              Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
-              Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
+              {featuresSectionLabels.description}
             </p>
           </div>
         </div>
@@ -49,8 +48,7 @@ const FeaturesSection: React.FC = () => {
           <div className="text">
             <h3 className="feature-title">Budgeting Intervals</h3>
             <p className="feature-description">
-              Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
-              Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
+              {featuresSectionLabels.description}
             </p>
           </div>
         </div>

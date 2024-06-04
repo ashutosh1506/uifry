@@ -1,5 +1,6 @@
 import React from "react";
 import "./FaqSection.css";
+import { faqSectionLabels } from "../../../utils/constant";
 
 const Faq: React.FC = () => {
   return (
@@ -13,46 +14,28 @@ const Faq: React.FC = () => {
       </div>
       <div className="faq-items">
         <div className="faq-item faq-item-highlighted">
-          <h3>The Best Financial Accounting App Ever!</h3>
-          <p>
-            “Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Acumsan, Ultricies.
-            In Ultrices Malesuada Elit Mauris.
-          </p>
+          <h3>{faqSectionLabels.headline}</h3>
+          <p>{faqSectionLabels.description}</p>
         </div>
         <div className="faq-item">
-          <h3>The Best Financial Accounting App Ever!</h3>
-          <p>
-            “Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Acumsan, Ultricies.
-            In Ultrices Malesuada Elit Mauris.
-          </p>
+          <h3>{faqSectionLabels.headline}</h3>
+          <p>{faqSectionLabels.description}</p>
         </div>
         <div className="faq-item ">
-          <h3>The Best Financial Accounting App Ever!</h3>
-          <p>
-            “Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Acumsan, Ultricies.
-            In Ultrices Malesuada Elit Mauris.
-          </p>
+          <h3>{faqSectionLabels.headline}</h3>
+          <p>{faqSectionLabels.description}</p>
         </div>
         <div className="faq-item faq-item-highlighted">
-          <h3>The Best Financial Accounting App Ever!</h3>
-          <p>
-            “Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Acumsan, Ultricies.
-            In Ultrices Malesuada Elit Mauris.
-          </p>
+          <h3>{faqSectionLabels.headline}</h3>
+          <p>{faqSectionLabels.description}</p>
         </div>
         <div className="faq-item faq-item-highlighted">
-          <h3>The Best Financial Accounting App Ever!</h3>
-          <p>
-            “Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Acumsan, Ultricies.
-            In Ultrices Malesuada Elit Mauris.
-          </p>
+          <h3>{faqSectionLabels.headline}</h3>
+          <p>{faqSectionLabels.description}</p>
         </div>
         <div className="faq-item">
-          <h3>The Best Financial Accounting App Ever!</h3>
-          <p>
-            “Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Acumsan, Ultricies.
-            In Ultrices Malesuada Elit Mauris.
-          </p>
+          <h3>{faqSectionLabels.headline}</h3>
+          <p>{faqSectionLabels.description}</p>
         </div>
       </div>
     </div>

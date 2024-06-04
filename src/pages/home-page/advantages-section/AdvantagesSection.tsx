@@ -2,6 +2,7 @@ import React from "react";
 import "./AdvantagesSection.css";
 import bell from "../../../assets/bell-02.png";
 import iphone1 from "../../../assets/CombinedImage.png";
+import { advantagesSectionLabels } from "../../../utils/constant";
 
 const AdvantagesSection = () => {
   return (
@@ -15,13 +16,7 @@ const AdvantagesSection = () => {
           </div>
           <div className="text">
             <h3>Clever Notifications</h3>
-            <p>
-              Arcu at dictum sapien, mollis. Vulputate sit id accumsan,
-              ultrices. In ultrices malesuada elit mauris etiam odio. Duis
-              tristique lacus, et blandit viverra nisl velit. Sed mattis
-              rhoncus, diam suspendisse sit nunc, gravida eu. Lectus eget eget
-              ac dolor neque lorem sapien, suspendisse aliquam.
-            </p>
+            <p>{advantagesSectionLabels.description}</p>
           </div>
         </div>
       </div>

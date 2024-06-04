@@ -3,17 +3,15 @@ import "./HeroStatsSection.css";
 import spiral from "../../../assets/Spiral.png";
 import combinedImage from "../../../assets/CombinedIphoneImage.png"; // Single image for all three phones
 import achievementImage from "../../../assets/tag.png"; // New image for the achievements section
+import { heroStatsSectionLabels } from "../../../utils/constant";
 
 const HeroStatsSection: React.FC = () => {
   return (
     <div className="container">
       <div className="content-wrapper">
         <div className="text-section">
-          <h1>Make The Best Financial Decisions</h1>
-          <p>
-            Cum Et Convallis Risus Placerat Aliquam, Nunc. Scelerisque Aliquet
-            Faucibus Tincidunt Eu Adipiscing Sociis Arcu Lorem Porttitor.
-          </p>
+          <h1>{heroStatsSectionLabels.title}</h1>
+          <p>{heroStatsSectionLabels.description}</p>
           <div className="buttons">
             <button className="get-started">Get Started</button>
             <button className="watch-video">Watch Video</button>

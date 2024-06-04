@@ -6,6 +6,7 @@ import person2 from "../../assets/person1.png";
 import person3 from "../../assets/person2.png";
 import person4 from "../../assets/person3.png";
 import person5 from "../../assets/person4.png";
+import { testimonialSectionLabels } from "../../utils/constant";
 const Testimonials: React.FC = () => {
   return (
     <div className="testimonial-container">
@@ -24,13 +25,7 @@ const Testimonials: React.FC = () => {
         </div>
         <div className="testimonial-right">
           <h3>The Best Financial Accounting App Ever!</h3>
-          <p>
-            “Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Acumusan,
-            Ultricies. In Ultrices Malesuada Elit Mauris Etlam Odio. Duis
-            Tristique Lacus, Et Blandit Viverra Nisl Velt. Sed Mattis Rhoncus,
-            Diam Suspendisse Sit Nunc, Gravida Eu. Lectus Eget Eget Ac Dolor
-            Neque Lorem Sapien, Suspendisse Aliquam.”
-          </p>
+          <p>{testimonialSectionLabels.description}</p>
           <div className="testimonial-footer">
             <div className="user-images">
               <img className="person-img1" src={person1} alt="user1" />
